@@ -6,9 +6,11 @@
 
 Thone is a suite of bash scripts to operate your daily phone: sms, call, etc.
 Current version is 0.5. The currently implemented commands are
-sms, call, ppl and toggle
+sms, call, ppl and toggle. It does not yet handle dbus signals, such as
+incoming calls, incoming messages or even outgoing calls. These will
+still be handled by your default installation. 
 
-To learn them, try autocompletion and '[command] help', or read the Documentation.
+To learn the commands, try autocompletion, or '[command] help', or read the Documentation.
 
 === Install ===
 
