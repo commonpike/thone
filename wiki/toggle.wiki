@@ -21,11 +21,11 @@ If no state is specified, a script called
 If no switch is specified,
 all switches are asked to "report".
 
-Examples:
-	
-  * toggle wifi off	# disables the wifi thru dbus
-  * toggle sleep on	# sets 'display' to 'auto' thru dbus
-  * toggle gprs		# reports on the current gprs state
+{{{
+> toggle wifi off	# disables the wifi thru dbus
+> toggle sleep on	# sets 'display' to 'auto' thru dbus
+> toggle gprs		# reports on the current gprs state
+}}}
 
 ===toggle gprs===
 {{{toggle gprs [on|off|report]}}}
