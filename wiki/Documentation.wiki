@@ -11,5 +11,5 @@ The first command is 'thone'. The other commands won't be available until you ru
   * [sms] - send, read and manage sms
   * [call] - dial, read and manage calls
   * [ppl] - manage your addressbook
-  * [toggle] - switch things on,off or in different states
+  * [toggle] - switch things on, off or in custom states
   * [thonedbus thone-dbus] - python dbus connection
