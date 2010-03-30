@@ -8,6 +8,8 @@
   * Main commands: help connect list read config
   * Recipients: prepend @ to aliases. phonenumbers should be +0-9, >3digits
 
+*Examples:*
+
 {{{
 > call +00316768690	# calls a number
 > call @robert		# calls `ppl @robert`
