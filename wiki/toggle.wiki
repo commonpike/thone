@@ -13,8 +13,6 @@ and prompts those as options.
 
 So write your own !
 
-Shipped switches in 0.5: gprs, wifi, sleep
-
 If no state is specified, a script called
 "report" is run if available. 
 
