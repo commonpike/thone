@@ -10,7 +10,7 @@
 
 Examples:
   * call +00316768690	# calls a number
-  * call @robert		# calls `ppl number`
+  * call @robert		# calls `ppl @robert`
   * call 2				# answers to call number 2
 
 ===call answer===	
