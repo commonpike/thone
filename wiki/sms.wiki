@@ -1,5 +1,5 @@
 #summary documentation for 'sms'
-#labels Phase-Implementation
+#labels documentation
 
 = SMS =
 
