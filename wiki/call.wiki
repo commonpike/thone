@@ -63,6 +63,10 @@ Examples:
 {{{call print-source $index}}}
 	displays source of call $index
 	
+===call purge===
+{{{call purge}}}
+	deletes all calls marked deleted from dbus and removes the cache files
+
 ===call read===
 {{{call ui|read $index}}}
 	starts interactive ui with call $index
