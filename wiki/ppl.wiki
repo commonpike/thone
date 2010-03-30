@@ -10,11 +10,11 @@
   * Main commands: add delete edit help list read
   * Recipients: prepend @ to aliases. phonenumbers should be +0-9, >3digits
 
-Examples:
-	
-  * ppl add test 0104669090
-  * ppl @test
-  * ppl delete @test
+{{{
+> ppl add test 0104669090 # adds an entry for person named test
+> ppl @test # print details of person @test
+> ppl delete @test # deletes it again
+}}}
 	
 ===ppl add===
 {{{ppl add (name) (number) }}}
