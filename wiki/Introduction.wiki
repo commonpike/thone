@@ -1,0 +1,29 @@
+#summary One- intro, dependencies, install
+#labels Featured,Phase-Deploy
+
+= Thone - a terminal phone =
+
+
+Thone is a suite of bash scripts to operate your daily phone: sms, call, etc.
+Current version is 0.5. The currently implemented commands are
+sms, call, ppl and toggle
+
+To learn them, try autocompletion and '[command] help', or read the Documentation.
+
+=== Install ===
+
+An ipkg would be wonderful. Anybody ?
+
+For now, download the tarball and extract it in root. It will add files /usr/bin/thone*, /usr/share/thone/* , and a pixmap and desktop entry. Thats all. The first time you run thone, it sets up a /home/root/.thone dir.
+
+=== Dependencies ===
+
+*Current dependencies - afaik:*
+
+  * bash3 (opkg install bash)
+  * python
+  * python-dbus
+  
+*Future dependencies:*
+
+  * signlaunchd (opkg install http://projects.openmoko.org/frs/download.php/724/siglaunchd_0.5.0-r0_armv4t.ipk)
