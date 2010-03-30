@@ -1,20 +1,14 @@
 #labels Phase-Implementation,Featured
 = Documentation =
 
-The main and first command is 'thone'. 
+The main and first command is 'thone'. The other commands won't be avialbe before you enter 'thone'. 
 
-= Thone =
+== Implemented commands==
 
-{{{thone [ jail | free ] }}}
+  * [thone]
+  * [sms]
+  * [call]
+  * [ppl]
+  * [toggle]
 
-"thone" will start a bash shell with ~/.thonerc as init file. 
-
-When "jail" is added, thonerc will read special config files to change your command line experience - and later, hijack your dbus handlers.
-
-.thonerc reads all config files from ~/.thone/. This initializes all thone's commands. After this, you have the commands below available:
-
-  * [[sms]]
-  * [[call]]
-  * [[ppl]]
-  * [[toggle]]
 
