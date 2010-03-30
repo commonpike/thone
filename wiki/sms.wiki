@@ -8,7 +8,6 @@
   * Main commands: help list read write config 
   * Recipients: prepend @ to aliases. phonenumbers should be +0-9, >3digits
 
-Examples:
 {{{
 >sms @robert howyadoinbro # sends an sms to `ppl robert`
 >sms read # opens an interactive reader
