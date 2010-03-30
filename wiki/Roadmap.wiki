@@ -3,6 +3,7 @@
 
 = Planned features =
 
+  * rethink thone-clear. its actually more annoying than usefull
   * rewrite ppl. it is not properly implemented. it needs a ui like sms and call, ao.
   * rewrite all commands to use internal functioncalls where possible
   * when delete is called from the command line, results should be purged automatically
