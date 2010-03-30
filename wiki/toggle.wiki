@@ -27,9 +27,11 @@ all switches are asked to "report".
 > toggle wifi off	# disables the wifi thru dbus
 > toggle sleep on	# sets 'display' to 'auto' thru dbus
 > toggle gprs		# reports on the current gprs state
+
 }}}
 
----
+----
+
 =Shipped switches:=
 
 ===toggle gprs===
