@@ -19,7 +19,7 @@ When "jail" is added, thonerc will read special config files to change your comm
 
 Examples:
 {{{
-	>sms @robert howyadoinbro # sends an sms to `ppl robert`
-	>sms read # opens an interactive reader
-	>sms delete 1:5; sms purge # marks a message deleted and deletes it
+>sms @robert howyadoinbro # sends an sms to `ppl robert`
+>sms read # opens an interactive reader
+>sms delete 1:5; sms purge # marks a message deleted and deletes it
 }}}
