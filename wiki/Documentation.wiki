@@ -1,4 +1,6 @@
 #labels Phase-Implementation,Featured
+# summary Documentation for all commands.
+ 
 = Documentation =
 
 The main and first command is 'thone'. The other commands won't be avialbe before you enter 'thone'. 
@@ -10,5 +12,3 @@ The main and first command is 'thone'. The other commands won't be avialbe befor
   * [call]
   * [ppl]
   * [toggle]
-
-
