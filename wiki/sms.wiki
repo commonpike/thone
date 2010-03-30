@@ -17,7 +17,7 @@ Examples:
 
 ===sms answer===	
 {{{sms answer [index] [text]}}}
-	send sms to sender of sms [index]
+	send sms to sender of sms $index
 	if text is omitted, opens text editor.
 ===sms config===
 {{{sms config }}}
@@ -26,7 +26,7 @@ Examples:
 	
 ===sms delete===
 {{{sms delete [index[:last]]}}}
-	deletes sms [index] to [last] from cache.
+	deletes sms $index to $last from cache.
 	use 'sms purge' to commit to dbus
 
 ===sms edit===
@@ -39,23 +39,23 @@ Examples:
 	
 ===sms list===
 {{{sms list [index[:last]]}}}
-	displays short form of sms [index] to [last]
+	displays short form of sms $index to $last
 
 ===sms list-raw===
 {{{sms list-raw [index[:last]]}}}
-	displays short form of sms [index] to [last]
+	displays short form of sms $index to $last
 	
 ===sms print===
 {{{sms print [index]}}}
-	displays long form of sms [index]
+	displays long form of sms $index
 	
 ===sms print-short===
 {{{sms print-short [index]}}}
-	displays long form of sms [index]
+	displays long form of sms $index
 
 ===sms print-source===
 {{{sms print-source [index]}}}
-	displays source of sms [index]
+	displays source of sms $index
 	
 ===sms purge===
 {{{sms purge}}}
@@ -63,7 +63,7 @@ Examples:
 	
 ===sms read===
 {{{sms ui|read [index]}}}
-	enters interactive mode with sms [index]
+	enters interactive mode with sms $index
 	
 ===sms send===
 {{{sms send [@recips]}}}
