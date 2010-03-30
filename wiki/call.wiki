@@ -11,7 +11,7 @@
 {{{
 > call +00316768690	# calls a number
 > call @robert		# calls `ppl @robert`
-> call 2				# replies to call number 2
+> call 2		# replies to call number 2
 }}}
 
 ===call answer===	
