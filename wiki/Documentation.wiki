@@ -3,13 +3,13 @@
  
 = Documentation =
 
-The first command is 'thone'. The other commands won't be available before you run 'thone'. 
+The first command is 'thone'. The other commands won't be available until you run 'thone'. 
 
 == Implemented commands==
 
-  * [thone]
-  * [sms]
-  * [call]
-  * [ppl]
-  * [toggle]
-  * [thonedbus thone-dbus]
+  * [thone] - start the shell
+  * [sms] - send, read and manage sms
+  * [call] - dial, read and manage calls
+  * [ppl] - manage your addressbook
+  * [toggle] - switch things on,off or in different states
+  * [thonedbus thone-dbus] - python dbus connection
