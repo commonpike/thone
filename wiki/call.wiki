@@ -52,15 +52,15 @@ Examples:
 	displays short form of calls $index to $last
 	
 ===call print===
-{{{call print $index}}}
+{{{call print [index]}}}
 	displays long form of call $index
 
 ===call print-short===
-{{{call print-short $index}}}
+{{{call print-short [index]}}}
 	displays short form of call $index
 	
 ===call print-source===
-{{{call print-source $index}}}
+{{{call print-source [index]}}}
 	displays source of call $index
 	
 ===call purge===
@@ -68,7 +68,7 @@ Examples:
 	deletes all calls marked deleted from dbus and removes the cache files
 
 ===call read===
-{{{call ui|read $index}}}
+{{{call ui|read [index]}}}
 	starts interactive ui with call $index
 	
 ===call update===
