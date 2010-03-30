@@ -1,4 +1,5 @@
 #summary documentation for the 'thone' command
+#labels documentation
 
 = Thone =
 
@@ -6,6 +7,6 @@
 
 "thone" will start a bash shell with ~/.thonerc as init file. 
 
-When "jail" is added, thonerc will read special config files to change your command line experience - and later, hijack your dbus handlers.
+"thone jail" will eventually hijack your phone, readline settings, kidnap dbus signals, etc.
 
-.thonerc reads all config files from ~/.thone/. This initializes all thone's commands. 
+"thone free" (or just "thone") only initializes the commands.
