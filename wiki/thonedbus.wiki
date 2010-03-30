@@ -1,0 +1,26 @@
+#summary documentation for 'thone-dbus'
+#labels documentation
+
+= Thone-dbus =
+
+Thone dbus is a rewrite of mdbus (the 'mickey dbus'), with some hardcoded calls usefull for thone.
+
+
+
+example of some prewritten thone-dbus call:
+{{{
+ > thone-dbus update-sms
+ > thone-dbus update-call
+ > thone-dbus update-ppl
+}}}
+
+example of a raw thone-dbus call:
+{{{
+ 	thone-dbus org.freesmartphone.ogsmd \ 	# busname
+ 		/org/freesmartphone/GSM/Device \	# objname
+ 		org.freesmartphone.GSM.SIM \		# ifacename
+		RetrieveMessagebook \				# methodname
+ 		all									# parameters
+}}}
+
+For the api on raw calls, check http://docs.freesmartphone.org
