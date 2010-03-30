@@ -29,7 +29,8 @@ all switches are asked to "report".
 > toggle gprs		# reports on the current gprs state
 }}}
 
-=Shipped switches=
+---
+=Shipped switches:=
 
 ===toggle gprs===
 {{{toggle gprs [on|off|report]}}}
