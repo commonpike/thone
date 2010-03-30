@@ -3,11 +3,11 @@
 
 = Thone-dbus =
 
-Thone dbus is a rewrite of mdbus (the 'mickey dbus'), with some hardcoded calls usefull for thone.
+Thone dbus is written in python. It a rewrite of mdbus (the 'mickey dbus'), with some hardcoded calls usefull for thone.
 
 
 
-example of some prewritten thone-dbus call:
+example of some prewritten thone-dbus calls:
 {{{
  > thone-dbus update-sms
  > thone-dbus update-call
@@ -16,7 +16,7 @@ example of some prewritten thone-dbus call:
 
 example of a raw thone-dbus call:
 {{{
- thone-dbus org.freesmartphone.ogsmd \ 	# busname
+ >thone-dbus org.freesmartphone.ogsmd \ 	# busname
  	/org/freesmartphone/GSM/Device \# objname
  	org.freesmartphone.GSM.SIM \	# ifacename
 	RetrieveMessagebook \		# methodname
