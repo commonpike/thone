@@ -1,4 +1,4 @@
-#summary One- intro, dependencies, install
+#summary intro, dependencies, install
 #labels Featured,Phase-Deploy
 
 = Thone - a terminal phone =
