@@ -1,0 +1,11 @@
+#summary Doumentation for the 'thone' command
+
+= Thone =
+
+{{{thone [ jail | free ] }}}
+
+"thone" will start a bash shell with ~/.thonerc as init file. 
+
+When "jail" is added, thonerc will read special config files to change your command line experience - and later, hijack your dbus handlers.
+
+.thonerc reads all config files from ~/.thone/. This initializes all thone's commands. 
