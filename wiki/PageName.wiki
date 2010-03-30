@@ -3,7 +3,7 @@
 
 =CALL=
 
-{{{call [-ac] [cmd] [@recips|dbusid[:last]] }}}
+{{{call [-ac] [cmd] [@recips|index[:last]] }}}
 
   * Main commands: help connect list read config
   * Recipients: prepend @ to aliases. phonenumbers should be +0-9, >3digits
