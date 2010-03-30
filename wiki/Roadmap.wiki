@@ -1,0 +1,9 @@
+#summary some planned features
+#labels Phase-QA
+
+= Planned features =
+
+  * rewrite ppl. it is not properly implemented. it needs a ui like sms and call, ao.
+  * implement "launch" to launch desktop apps (from /usr/share/applications)
+  * implement "notes" to edit notes (thru dbus)
+  * use siglaunchd to receive incoming messages and "wall" the result and optionally update caches or engage in a call
