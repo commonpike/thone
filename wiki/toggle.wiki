@@ -8,7 +8,7 @@
 The concept behind a 'toggle' command is that a lot of features 
 on a phone looks like multi-state switches. GPS is either on or off.
 Your profile is either 'plane' or 'work'. What that means exactly is so
-diverse, that toggle simply locates script from ~/.thone/bin/toggle.d
+diverse, that toggle simply locates any scripts from ~/.thone/bin/toggle.d
 and prompts those as options.
 
 So write your own !
