@@ -1,4 +1,7 @@
-#summary all commands in detail
+#labels Phase-Implementation,Featured
+= Documentation =
+
+The main and first command is 'thone'. 
 
 = Thone =
 
@@ -8,18 +11,10 @@
 
 When "jail" is added, thonerc will read special config files to change your command line experience - and later, hijack your dbus handlers.
 
-.thonerc reads all config files from ~/.thone/. This initializes all thone's commands. After this, you have the commands below available.
+.thonerc reads all config files from ~/.thone/. This initializes all thone's commands. After this, you have the commands below available:
 
-= SMS =
+  * [[sms]]
+  * [[call]]
+  * [[ppl]]
+  * [[toggle]]
 
-{{{sms [ cmd ] [ @recips | index [ :last ] ] [ text ] }}}
-
-  * Main commands: help list read write config 
-  * Recipients: prepend @ to aliases. phonenumbers should be +0-9, >3digits
-
-Examples:
-{{{
->sms @robert howyadoinbro # sends an sms to `ppl robert`
->sms read # opens an interactive reader
->sms delete 1:5; sms purge # marks a message deleted and deletes it
-}}}
