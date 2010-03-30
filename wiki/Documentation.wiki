@@ -12,4 +12,4 @@ The main and first command is 'thone'. The other commands won't be avialbe befor
   * [call]
   * [ppl]
   * [toggle]
-  * [thonedbus|thone-dbus]
+  * [thonedbus thone-dbus]
