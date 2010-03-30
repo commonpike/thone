@@ -1,5 +1,5 @@
+#summary Documentation for all commands.
 #labels Phase-Implementation,Featured
-# summary Documentation for all commands.
  
 = Documentation =
 
