@@ -1,4 +1,4 @@
-#summary Doumentation for the 'thone' command
+#summary documentation for the 'thone' command
 
 = Thone =
 
