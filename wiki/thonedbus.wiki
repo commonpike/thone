@@ -16,11 +16,11 @@ example of some prewritten thone-dbus call:
 
 example of a raw thone-dbus call:
 {{{
- 	thone-dbus org.freesmartphone.ogsmd \ 	# busname
- 		/org/freesmartphone/GSM/Device \	# objname
- 		org.freesmartphone.GSM.SIM \		# ifacename
-		RetrieveMessagebook \				# methodname
- 		all									# parameters
+ thone-dbus org.freesmartphone.ogsmd \ 	# busname
+ 	/org/freesmartphone/GSM/Device \# objname
+ 	org.freesmartphone.GSM.SIM \	# ifacename
+	RetrieveMessagebook \		# methodname
+ 	all				# parameters
 }}}
 
 For the api on raw calls, check http://docs.freesmartphone.org
