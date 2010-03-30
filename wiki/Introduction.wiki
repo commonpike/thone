@@ -16,7 +16,7 @@ To learn the commands, try autocompletion, or '[command] help', or read the Docu
 
 An ipkg would be wonderful. Anybody ?
 
-For now, download the tarball and extract it in root. It will add files /usr/bin/thone*, /usr/share/thone/* , and a pixmap and desktop entry. Thats all. The first time you run thone, it sets up a /home/root/.thone dir.
+For now, download the tarball and extract it in root. It will add files /usr/bin/thone-, /usr/share/thone/ , and a pixmap and desktop entry. Thats all. The first time you run thone, it sets up a /home/root/.thone dir.
 
 === Dependencies ===
 
