@@ -3,7 +3,7 @@
 
 = Thone-dbus =
 
-Thone dbus is written in python. It a rewrite of mdbus (the 'mickey dbus'), with some hardcoded calls usefull for thone.
+Thone-dbus is written in python. It's a rewrite of mdbus (the 'mickey dbus'), with some custom hardcoded logic for thone.
 
 
 
