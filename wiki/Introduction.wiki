@@ -10,6 +10,8 @@ sms, call, ppl and toggle. It does not yet handle dbus signals, such as
 incoming calls, incoming messages or even outgoing calls; these should
 still be handled by your default installation. 
 
+The first command is 'thone'. The other commands won't be available until you run 'thone'.
+
 To learn the commands, try autocompletion, or `[command] help`, or read the [Documentation].
 
 === Install ===
