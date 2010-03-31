@@ -4,9 +4,15 @@
 = Planned features =
 
   * rethink thone-clear. its actually more annoying than usefull
-  * rewrite ppl. it is not properly implemented. it needs a ui like sms and call, ao.
+  * rewrite ppl. it is not properly implemented. 
+     * it needs a ui like sms and call
+     * it needs to use opimd, and allow the custom fields
   * rewrite all commands to use internal functioncalls where possible
   * when delete is called from the command line, results should be purged automatically
   * implement "launch" to launch desktop apps (from /usr/share/applications)
   * implement "notes" to edit notes (thru dbus)
-  * use siglaunchd to receive incoming messages and "wall" the result and optionally update caches or engage in a call
+  * use siglaunchd to receive incoming dbus messages and 
+     * optionally "wall" the result and 
+     * optionally update caches and
+     * optionally prompt to engage or reject a call
+     * optionally read messages
