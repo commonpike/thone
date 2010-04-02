@@ -16,6 +16,12 @@
 >sms delete 1:5; sms purge # marks messages deleted and deletes them
 }}}
 
+*Config:*
+
+  * TH_SMS_STORESENT will store the sent sms on the sim (not opimd)
+  * TH_SMS_USESTDIN will use stdin as text input for sms messages. type a double newline (or EOF, control-D) signals the end of the message. If not set, $EDITOR will be used to write sms texts
+  * TH_SMS_SIM and TH_SMS_OPIMD set wether to check the sim or pim for messages, or both. if you set both, you may have duplicate message (and its twice as slow)
+
 ===sms answer===	
 {{{sms answer [index] [text]}}}
 	send sms to sender of sms $index
