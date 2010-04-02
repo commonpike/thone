@@ -16,6 +16,9 @@
 > call read		# opens a ui to browse and manage calls
 }}}
 
+==SUBCOMMANDS==
+
+
 ===call answer===	
 {{{call answer [index|@recip]}}}
 	connects to @recip or caller of call $index
