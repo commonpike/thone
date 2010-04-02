@@ -16,6 +16,9 @@
 > ppl delete @test # deletes it again
 }}}
 	
+==SUBCOMMANDS==
+
+
 ===ppl add===
 {{{ppl add (name) (number) }}}
 	add person info. 
