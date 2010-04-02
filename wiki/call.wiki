@@ -17,7 +17,7 @@
 }}}
 
 ----
-=SUBCOMMANDS=
+=Subcommands=
 
 
 ===call answer===	
