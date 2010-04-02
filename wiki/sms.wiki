@@ -25,7 +25,7 @@
   * TH_SMS_SIM and TH_SMS_OPIMD 
   set wether to check the sim or pim for messages, or both. if you set both, you may have duplicate messages (and updating is twice as slow)
 
-==subcommands==
+==SUBCOMMANDS==
 
 ===sms answer===	
 {{{sms answer [index] [text]}}}
