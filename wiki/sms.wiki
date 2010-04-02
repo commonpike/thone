@@ -19,7 +19,7 @@
 *Config:*
 
   * TH_SMS_USESTDIN: 
-  use stdin as text input for sms messages. type a double newline (or EOF, control-D) signals the end of the message. If not set, $EDITOR will be used to write sms texts
+  use stdin as text input for sms messages. type a double newline (or EOF, control-D) to end a message. If not set, $EDITOR will be used to write sms texts
   * TH_SMS_STORESENT
   store the sent sms on the sim (not opimd)
   * TH_SMS_SIM and TH_SMS_OPIMD 
