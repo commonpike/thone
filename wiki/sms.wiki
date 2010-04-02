@@ -18,9 +18,14 @@
 
 *Config:*
 
-  * TH_SMS_STORESENT will store the sent sms on the sim (not opimd)
-  * TH_SMS_USESTDIN will use stdin as text input for sms messages. type a double newline (or EOF, control-D) signals the end of the message. If not set, $EDITOR will be used to write sms texts
-  * TH_SMS_SIM and TH_SMS_OPIMD set wether to check the sim or pim for messages, or both. if you set both, you may have duplicate message (and its twice as slow)
+  * TH_SMS_USESTDIN: 
+  use stdin as text input for sms messages. type a double newline (or EOF, control-D) signals the end of the message. If not set, $EDITOR will be used to write sms texts
+  * TH_SMS_STORESENT
+  store the sent sms on the sim (not opimd)
+  * TH_SMS_SIM and TH_SMS_OPIMD 
+  set wether to check the sim or pim for messages, or both. if you set both, you may have duplicate messages (and updating is twice as slow)
+
+==subcommands==
 
 ===sms answer===	
 {{{sms answer [index] [text]}}}
