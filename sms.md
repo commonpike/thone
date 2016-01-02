@@ -1,0 +1,96 @@
+# SMS #
+
+`sms [ cmd ] [ @recips | index [ :last ] ] [ text ] `
+
+  * Main commands: help list read write config
+  * Recipients: prepend @ to aliases. phonenumbers should be +0-9, >3digits
+
+**Examples:**
+
+```
+>sms @robert howyadoinbro # sends an sms to `ppl robert`
+>sms read # opens an interactive reader
+>sms delete 1:5; sms purge # marks messages deleted and deletes them
+```
+
+**Config:**
+
+  * TH\_SMS\_USESTDIN:
+> use stdin as text input for sms messages. type a double newline (or EOF, control-D) to end a message. If not set, $EDITOR will be used to write sms texts
+  * TH\_SMS\_STORESENT
+> store the sent sms on the sim (not opimd)
+  * TH\_SMS\_SIM and TH\_SMS\_OPIMD
+> set wether to check the sim or pim for messages, or both. if you set both, you may have duplicate messages (and updating is twice as slow)
+
+
+---
+
+# Subcommands #
+
+### sms answer ###
+`sms answer [index] [text]`
+> send sms to sender of sms $index
+> if text is omitted, opens text editor.
+### sms config ###
+`sms config `
+> open $EDITOR with ~/.thone/sms.rc
+> restart Thone to have changes take effect
+
+### sms delete ###
+`sms delete [index[:last]]`
+> deletes sms $index to $last from cache.
+> use 'sms purge' to commit to dbus
+
+### sms edit ###
+`sms edit `
+> edits or creates the draft text.
+
+### sms help ###
+`sms help`
+> some help
+
+### sms list ###
+`sms list [index[:last]]`
+> displays short form of sms $index to $last
+
+### sms list-raw ###
+`sms list-raw [index[:last]]`
+> displays short form of sms $index to $last
+
+### sms print ###
+`sms print [index]`
+> displays long form of sms $index
+
+### sms print-short ###
+`sms print-short [index]`
+> displays long form of sms $index
+
+### sms print-source ###
+`sms print-source [index]`
+> displays source of sms $index
+
+### sms purge ###
+`sms purge`
+> delete messages mark as deleted from dbus
+
+### sms read ###
+`sms ui|read [index]`
+> enters interactive mode with sms $index
+
+### sms send ###
+`sms send [@recips]`
+> send input from stdin to @recips.
+
+### sms update ###
+`sms update`
+> sync the local sms history with dbus storage
+
+### sms write ###
+`sms [write] [@recips] [text]`
+> default action. writes and sends sms.
+> if text is omitted, opens text editor.
+> prompts for @recips when omitted.
+
+### sms -ac ###
+`sms -ac [arguments]`
+> performs autocomplete on last argument

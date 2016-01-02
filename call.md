@@ -1,0 +1,86 @@
+# CALL #
+
+`call [-ac] [cmd] [@recips|index[:last]] `
+
+  * Main commands: help connect list read config
+  * Recipients: prepend @ to aliases. phonenumbers should be +0-9, >3digits
+
+**Examples:**
+
+```
+> call +00316768690	# calls a number
+> call @robert		# calls `ppl @robert`
+> call read		# opens a ui to browse and manage calls
+```
+
+
+---
+
+# Subcommands #
+
+
+### call answer ###
+`call answer [index|@recip]`
+> connects to @recip or caller of call $index
+
+### call config ###
+`call config`
+> open $EDITOR with ~/.thone/call.rc
+> restart Thone to have changes take effect
+
+### call connect ###
+`call [connect] [@recip]`
+
+> Default command.
+> connects to @recip. depending on your phone,
+> this will start a gui (like a 'dialer').
+
+### call delete ###
+`call delete [index[:last]]`
+> deletes calls $index to $last from cache.
+> use 'call purge' to commit to dbus.
+
+### call engage ###
+`call engage`
+> not implemented.
+
+### call help ###
+`call help`
+> some help
+
+
+### call list ###
+`call list [index[:last]]`
+> displays short form of calls $index to $last
+
+### call list-raw ###
+`call list-raw [index[:last]]`
+> displays short form of calls $index to $last
+
+### call print ###
+`call print [index]`
+> displays long form of call $index
+
+### call print-short ###
+`call print-short [index]`
+> displays short form of call $index
+
+### call print-source ###
+`call print-source [index]`
+> displays source of call $index
+
+### call purge ###
+`call purge`
+> deletes all calls marked deleted from dbus and removes the cache files
+
+### call read ###
+`call ui|read [index]`
+> starts interactive ui with call $index
+
+### call update ###
+`call update`
+> sync the call.cache with dbus storage
+
+### call -ac ###
+`call -ac [arguments]`
+> performs autocompletion on last argument

@@ -1,0 +1,46 @@
+# TOGGLE #
+
+`toggle [-ac] [switch] [state] `
+
+The concept behind a 'toggle' command is that a lot of features
+on a phone looks like multi-state switches. GPS is either on or off.
+Your profile is either 'plane' or 'work'. What that means exactly is so
+diverse, that toggle simply locates any scripts from ~/.thone/bin/toggle.d
+and prompts those as options.
+
+So write your own !
+
+If no state is specified, a script called
+"report" is run if available.
+
+If no switch is specified,
+all switches are asked to "report".
+
+**Examples:**
+
+```
+> toggle wifi off	# disables the wifi thru dbus
+> toggle sleep on	# sets 'display' to 'auto' thru dbus
+> toggle gprs		# reports on the current gprs state
+
+```
+
+
+---
+
+
+# Shipped switches: #
+
+### toggle gprs ###
+`toggle gprs [on|off|report]`
+> Will enable/disable GPRS. Change
+> the settings in the script to match
+> your provider.
+### toggle wifi ###
+`toggle wifi [on|pike|report]`
+> Will enable/disable wifi networking.
+> "pike" is an example script that works for me.
+### toggle sleep ###
+`toggle sleep [on|off|report]`
+> Will enable/disable the damn brick falling
+> asleep every 2 seconds.
